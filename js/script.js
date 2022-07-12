@@ -72,6 +72,12 @@ $(document).ready(function(){
         .addTo(controller)
 
     }
+  });//end
+  var ww = $(window).width();
+  var vh = $(window).height();
+  $(window).resize(function(){
+    ww = $(window).width();
+    vh = $(window).height();
+    layout();
   });
-  
-});
+});//end
