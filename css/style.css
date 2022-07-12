@@ -1064,6 +1064,7 @@ footer .sns{
     .pop .ss{
         width: calc(100% - 16px);
         margin-left: 0;
+        margin: 0 auto;
     }
     .pop .but{
         display: none;
