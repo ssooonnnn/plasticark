@@ -538,6 +538,9 @@
     height: 100vh;
     width: 100vw;
 }
+.sec-2 .title{
+    display: none;
+}
 .sec-2 .cont{
     cursor: pointer;
 }
@@ -634,7 +637,7 @@
     position: absolute;
     top: 11.514%;
     left: 0;
-    margin-left: 10.937%;
+    margin-left: 4.266%;
 }
 .sec-3 .video{
     width: 51.875%;
@@ -956,7 +959,7 @@ footer .sns{
         height: 200px;
     }
     .ss h1{
-        font-size: 40px;
+        font-size: 32px;
     }
     .pop .but{
         font-size: 12px;
@@ -1031,11 +1034,48 @@ footer .sns{
     .sec-1{
         display: none;
     }
+    .sec-2{
+        background-image: url(../img/sec-2-back.png);
+        background-position: center;     
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec-2 .title{
+        display: block;
+        padding-top: 11.514%;
+        box-sizing: border-box;
+        margin-left: 4.266%;
+    }
+    .sec-2 .container{
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        width: 64.666%;
+        height: 80.714%;
+        margin: 0 auto;
+        padding-top: 17%;
+    }
+    .sec-2 .bg1{
+        display: none;
+    }
+    .sec-2 .cont {
+        width: calc(50% - 12px);
+        height: 208px;
+        position: static;
+        margin-right: 12px;
+    }
+
+    .sec-2 .img3, .sec-2 .img4{
+        transform: none;
+    }
     .sec-3 .video{
         bottom: 40%;
     }
     .sec-3 .but{
         bottom: 25.625%;
+    }
+    .sec-4{
+        height: 100%;
     }
     .nuest, .vogue{
         flex-wrap: wrap;
@@ -1075,40 +1115,11 @@ footer .sns{
     .sec-2 .bg1{
         display: none;
     }
-    .sec-2 .cont {
-        width: 42.666%;
-        height: 208px;
+    .sec-2{
+        background-image: none;
     }
-    .sec-2 .img1{
-        top: 13.666%;
-        left: 4.266%;
-    }
-    .sec-2 .img2{
-        top: 41%;
-        left: 4.266%;
-        right: auto;
-    }
-    .sec-2 .img3{
-        top: 13.666%;
-        left: auto;
-        right: 4.266%;
-        transform: none;
-    }
-    .sec-2 .img4{
-        top: 41%;
-        left: auto;
-        right: 4.266%;
-        transform: none;
-    }
-    .sec-2 .img5{
-        top: 69%;
-        left: 4.266%;
-        right: auto;
-    }
-    .sec-2 .img6{
-        top: 69%;
-        right: 4.266%;
-        left: auto;
+    .sec-2 .container {
+        width: 91.434%;
     }
     .sec-3 .video{
         width: 100%;
@@ -1116,6 +1127,7 @@ footer .sns{
     }
     .sec-4{
         width:calc(100% - 32px);
+        height: 100vh;
         margin: 0 auto;
     }
     .nuest{
