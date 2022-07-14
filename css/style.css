@@ -704,7 +704,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* margin-bottom: 16px; */
 }
 .nuest .logo {
     width: 32%;
@@ -785,10 +784,10 @@
 footer{
     width: 100%;
     background-color: #0d0d0d;
-    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10%;
 }
 footer p{
     color: #FEFDFF;
@@ -1032,6 +1031,7 @@ footer .sns{
         display: none;
     }
     .sec-2{
+        width: 100%;
         background-image: url(../img/sec-2-back.png);
         background-position: center;     
         background-repeat: no-repeat;
@@ -1050,26 +1050,44 @@ footer .sns{
         width: 64.666%;
         height: 80.714%;
         margin: 0 auto;
-        padding-top: 4.444%;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
     .sec-2 .bg1{
         display: none;
     }
     .sec-2 .cont {
         width: calc(50% - 12px);
-        height: 208px;
+        height: 26vh;
         position: static;
         margin-right: 12px;
+        margin-bottom: 8px;
     }
 
     .sec-2 .img3, .sec-2 .img4{
         transform: none;
     }
+    .sec-3{
+        width: 100%;
+        height: auto;
+        padding: 10% 0;
+        box-sizing: border-box;
+    }
+    .sec-3 .title{
+        position: static;
+        margin-bottom: 10%;
+    }
     .sec-3 .video{
-        bottom: 40%;
+        position: static;
+        transform: translate(0);
     }
     .sec-3 .but{
-        bottom: 25.625%;
+        display: block;
+        position: static;
+        transform: translate(0);
+        margin: 0 auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
     }
     .sec-4{
         height: 100%;
@@ -1089,6 +1107,9 @@ footer .sns{
     }
 }
 @media (max-width:500px) {
+    .sec-2{
+        height: auto;
+    }
     .slogan{
         font-size: 18px;
     }
@@ -1124,7 +1145,7 @@ footer .sns{
     }
     .sec-4{
         width:calc(100% - 32px);
-        height: 100vh;
+        height:auto;
         margin: 0 auto;
     }
     .nuest{
@@ -1151,7 +1172,7 @@ footer .sns{
     }
     .sec-5{
         width: 100vw;
-        height: 100vh;
+        height: auto;
     }
     .sec-5 .title{
         margin-left: 4.266%;
@@ -1161,7 +1182,10 @@ footer .sns{
         width: calc(100% - 32px);
         height: 63vh;
         justify-content: space-between;
-        margin-top: 8.444%;
+        margin-top: 0;
+        padding:10% 0;
+        box-sizing: border-box;
+  
     }
     .sec-5 .img-box a {
         width: calc(50% - 8px);
