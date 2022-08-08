@@ -64,20 +64,17 @@
 .logo-box .logo span{
     width: 11px;
     height: 5px;
-    margin: 0 0 14px 2px;    background-color: #0d0d0d;
+    margin: 0 0 14px 2px;    
+    background-color: #0d0d0d;
 }
 
 .logo-box p{
     font-size: 16px;
 }
-
-
-
-
+/* 전체 섹션 */
 .section{
     width: 100%;
 }
-
 .section .gnb{
     width: 100vw;
     height: 97px;
@@ -120,13 +117,13 @@
 .gnb .logo span{
     width: 11px;
     height: 5px;
-    margin: 0 0 8px 2px;    background-color: #0d0d0d;
+    margin: 0 0 8px 2px;    
+    background-color: #0d0d0d;
 }
 .search{
     display: inline-block;
     width: 24px;
     height: 24px;
-
 }
 #hamburger{
     width: 30px;
@@ -757,7 +754,8 @@
 .vogue .logo span{
     width: 11px;
     height: 5px;
-    margin: 0 0 5% 2px;    background-color: #0d0d0d;
+    margin: 0 0 5% 2px;    
+    background-color: #0d0d0d;
 }
 .vogue .top h1{
     font-size: 2.5rem;
