@@ -48,12 +48,25 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.logo-box a{
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 4.629%;
+.logo-box .logo{
+    display: flex;
+    align-items: flex-end;
 }
+.logo-box .logo h1{
+    font-size: 40px;
+    font-family: 'Futura\ Bold';
+}
+.logo-box .logo span{
+    width: 11px;
+    height: 5px;
+    margin: 0 0 14px 2px;    background-color: #0d0d0d;
+}
+
 .logo-box p{
     font-size: 16px;
 }
@@ -62,8 +75,7 @@
 
 
 .section{
-    width: 100vw;
-    height: 100%;
+    width: 100%;
 }
 
 .section .gnb{
@@ -96,6 +108,19 @@
 }
 .gnb li{
     margin-right: 25px;
+}
+.gnb .logo{
+    display: flex;
+    align-items: flex-end;
+}
+.gnb .logo h1{
+    font-size: 30px;
+    font-family: 'Futura\ Bold';
+}
+.gnb .logo span{
+    width: 11px;
+    height: 5px;
+    margin: 0 0 8px 2px;    background-color: #0d0d0d;
 }
 .search{
     display: inline-block;
@@ -179,7 +204,6 @@
     height: 100vh;
     margin: 0 auto;
 }
-
 /* 콜렉트 */
 .con-1{
     position: relative;
@@ -187,8 +211,6 @@
 .collect{
     width: 43.717%;
     height: 91vh;
-    /* width: 655.76px; */
-    /* height: 983px; */
     position: absolute;
     left: 0;
     bottom: 0;
@@ -228,7 +250,6 @@
     z-index: 9;
 }
 .con-1 .ani span:first-child{
-    /* animation: wm 1s linear; */
     top: 43.518%;
 }
 .con-1 .ani span:last-child{
@@ -236,8 +257,6 @@
     height: 34%;
     left: 86%;
     top: 38.888%;
-
-    /* animation: hm 1s linear; */
 }
 @keyframes wm {
     0%{
@@ -259,15 +278,12 @@
         opacity: 100%;
     }
 }
-
-
 /* 크러쉬 */
 .con-2{
     position: relative;
 }
 .crush{
     width: 64.933%;
-    /* height: 56.591%;     */
     height: 57vh;
     position: absolute;
     right: 0;
@@ -298,7 +314,6 @@
     background-color: #0d0d0d;
     display: inline-block;
     position: absolute;
-    
 }
 .con-2 .ani span:first-child{
     top: 43.518%;
@@ -310,7 +325,6 @@
     left: 19%;
     top: 0;
 }
-
 .con-3{
     position: relative;
 }
@@ -342,8 +356,7 @@
     height: 2px;
     background-color: #0d0d0d;
     display: inline-block;
-    position: absolute;
-    
+    position: absolute; 
 }
 .con-3 .ani span:first-child{
     top: 52.518%;
@@ -355,9 +368,6 @@
     left: 19%;
     top: 45%;
 }
-
-
-
 .con-4{
     position: relative;
 }
@@ -369,7 +379,6 @@
     right: 0;
     z-index: 99;
 }
-
 .con-4 .ani{
     width: 32.406%;
     height: 100%;
@@ -499,19 +508,12 @@
     top: 0;
 }
 
-
-
-
 /* 섹션2 */
 .sec-2{
     width: 100vw;
     height: 100vh;
     position: relative;
 }
-/* .back{
-    width: 100vw;
-    height: 100vh;
-} */
 .back .img-1{
     position: absolute;
     width: 100%;
@@ -586,8 +588,6 @@
     top: 100%;
     left: 10%;
 }
-
-
 .pop{
     width: 100vw;
     height: 230px;
@@ -626,25 +626,23 @@
     background-color: #FEFDFF;
     color: #0d0d0d;
 }
-
+/* 섹션3 */
 .sec-3{
-    width: 100vw;
-    height: 100vh;
+    width: 78.125%;
     background-color: #FEFDFF;
-    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .sec-3 .title{
-    position: absolute;
-    top: 11.514%;
-    left: 0;
-    margin-left: 4.266%;
+    margin-top: 10%;
 }
 .sec-3 .video{
     width: 51.875%;
-    position: absolute;
-    bottom: 20.092%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
+    padding: 5% 0;
+    box-sizing: border-box;
 }
 .sec-3 .but{
     display: inline-block;
@@ -657,27 +655,25 @@
     font-size: 16px;
     line-height: 50px;
     text-align: center;
-    margin-right: 14.791%;
-    position: absolute;
-    bottom: 10.625%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin:  4% auto;
     transition: 0.5s;
 }
 .sec-3 .but:hover{
     color: #FEFDFF;
     background-color: #0d0d0d;
 } 
-
+/* 섹션4 */
 .sec-4{
     width: 78.125%;
-    height: 100vh;
     background-color: #FEFDFF;
-    position: relative;
     margin: 0 auto;
 }
 .sec-4 .title{
     padding-top: 6.514%;
+}
+.with{
+    width: 48px;
+    height: 48px;
 }
 .nuest{
     width: 100%;
@@ -713,8 +709,6 @@
     font-weight: bold;
     font-family: 'Noto Sans', sans-serif;
 }
-
-
 .vogue{
     width: 100%;
     height: 36vh;
@@ -740,7 +734,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* margin-bottom: 16px; */
 }
 .vogue .logo {
     width: 32%;
@@ -755,9 +748,7 @@
 /* 섹션5 */
 .sec-5{
     width: 78.125%;
-    height: 100vh;
     background-color: #FEFDFF;
-    position: relative;
     margin: 0 auto;
 }
 .sec-5 .title{
@@ -766,35 +757,35 @@
 }
 .sec-5 .img-box{
     width: calc(100% - 110px);
-    height: 50.925%;
-    /* background-color: #012626; */
+    height: 51vh;
     margin: 0 auto;
-    margin-top: 48px;
     display: flex;
-    flex-wrap:wrap ;
+    flex-wrap:wrap;
     justify-content: space-between;
     margin-bottom: -10px;
+    padding: 10% 0;
 }
 .sec-5 .img-box a{
     display: inline-block;
     width: calc(20% - 10px);
     height: calc(50% - 10px);
 }
-
+/* 푸터 */
 footer{
     width: 100%;
     background-color: #0d0d0d;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10%;
+    padding: 6% 0;
+    box-sizing: border-box;
 }
 footer p{
     color: #FEFDFF;
 }
 .f-top{
     display: flex;
-    margin: 86px 0 10px 0;
+    margin-bottom: 10px;
 }
 .f-top p{
     margin-right: 10px;
@@ -1017,9 +1008,12 @@ footer .sns{
     }
     .logo-box{
         width: 66.666%;
-        right: 50%;
-        top: 6%;
-        transform: translateX(50%);
+        height: 22%;
+        right: auto;
+        top: auto;
+        position: static;
+        transform: translateX(0);
+        margin: 0 auto;
     }
     .logo-box a{
         margin-bottom: 2.629%;
@@ -1068,7 +1062,7 @@ footer .sns{
         transform: none;
     }
     .sec-3{
-        width: 100%;
+        width: calc(100% - 32px);
         height: auto;
         padding: 10% 0;
         box-sizing: border-box;
@@ -1171,25 +1165,24 @@ footer .sns{
         font-size: 16px;
     }
     .sec-5{
-        width: 100vw;
+        width: calc(100% - 32px);
         height: auto;
     }
     .sec-5 .title{
-        margin-left: 4.266%;
+        margin-left: 0;
     }
     .sec-5 .img-box{
         flex-wrap: wrap;
-        width: calc(100% - 32px);
-        height: 63vh;
-        justify-content: space-between;
+        height: auto;
         margin-top: 0;
         padding:10% 0;
         box-sizing: border-box;
   
     }
     .sec-5 .img-box a {
-        width: calc(50% - 8px);
-        height: calc(33.333% - 8px);
+        width: 50%;
+        height: 176px;
+        margin-bottom: 0;
     }
     .sec-5 .img-box a:nth-child(even){
         margin-right: 0;
