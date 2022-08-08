@@ -701,8 +701,19 @@
     display: flex;
     align-items: center;
 }
-.nuest .logo {
-    width: 32%;
+.nuest .logo{
+    display: flex;
+    align-items: flex-end;
+}
+.nuest .logo h3{
+    font-size: 2rem;
+    font-family: 'Futura\ Bold';
+}
+.nuest .logo span{
+    width: 11px;
+    height: 5px;
+    margin: 0 0 5% 2px;    
+    background-color: #0d0d0d;
 }
 .nuest .top h1{
     font-size: 40px;
@@ -735,8 +746,18 @@
     display: flex;
     align-items: center;
 }
-.vogue .logo {
-    width: 32%;
+.vogue .logo{
+    display: flex;
+    align-items: flex-end;
+}
+.vogue .logo h3{
+    font-size: 2rem;
+    font-family: 'Futura\ Bold';
+}
+.vogue .logo span{
+    width: 11px;
+    height: 5px;
+    margin: 0 0 5% 2px;    background-color: #0d0d0d;
 }
 .vogue .top h1{
     font-size: 2.5rem;
