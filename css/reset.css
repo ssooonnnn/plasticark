@@ -12,6 +12,10 @@ html,body{
     font-family: 'StretchPro';
     src: url(../font/StretchPro.otf) format('woff');
 }
+@font-face {
+    font-family: 'Futura\ Bold';
+    src: url(../font/Futura\ Bold.otf) format('woff');
+}
 ul,li{
     list-style: none;
 }
