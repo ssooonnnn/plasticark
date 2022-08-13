@@ -44,7 +44,7 @@
 .logo-box{
     width:23.809%;
     position: absolute;
-    right: 3.072%;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
@@ -52,6 +52,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 3.072%;
 }
 .logo-box .logo{
     display: flex;
