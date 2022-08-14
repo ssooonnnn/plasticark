@@ -112,8 +112,9 @@
     align-items: flex-end;
 }
 .gnb .logo h1{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Futura\ Bold';
+    white-space: nowrap;
 }
 .gnb .logo span{
     width: 11px;
@@ -704,7 +705,7 @@
     align-items: flex-end;
 }
 .nuest .logo h3{
-    font-size: 2rem;
+    font-size: 26px;
     font-family: 'Futura\ Bold';
 }
 .nuest .logo span{
@@ -749,7 +750,7 @@
     align-items: flex-end;
 }
 .vogue .logo h3{
-    font-size: 2rem;
+    font-size: 26px;
     font-family: 'Futura\ Bold';
 }
 .vogue .logo span{
